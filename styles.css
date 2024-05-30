@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: mons;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: mons;
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+.inspiration{
+    text-align: center;
+    margin-top: 3vh;
+}
+.inspiration h2{
+    font-size: 4vh;
+    color: #235391;
+}
+.persons{
+    margin-top: 7vh;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.persons img{
+    width: 40vh;
+    height: 40vh;
+    box-shadow: 10px 5px 5px black;
+}
+.persons h2,h4{
+    color: #235391;
+    margin-top: 2vh;
+}
